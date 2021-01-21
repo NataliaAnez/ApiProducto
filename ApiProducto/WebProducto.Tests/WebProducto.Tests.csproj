@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{393054EF-1CC1-45B2-A7C4-F011C484DB98}</ProjectGuid>
+    <ProjectGuid>{5192FD3D-F7AE-4E72-9D8C-E934D8B09F62}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ApiProducto.Tests</RootNamespace>
-    <AssemblyName>ApiProducto.Tests</AssemblyName>
+    <RootNamespace>WebProducto.Tests</RootNamespace>
+    <AssemblyName>WebProducto.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -107,6 +107,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WebProducto\WebProducto.csproj">
+      <Project>{DF383FD2-1151-48D8-AC96-43892E761061}</Project>
+      <Name>WebProducto</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
